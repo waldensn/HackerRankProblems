@@ -20,10 +20,10 @@ public class Main {
            //System.out.println(EasyJavaCert.isBalanced("{{}"));
            //System.out.println(EasyProblemSolvingCert.isAnagram("oaybcx".toCharArray(), "cxaboy".toCharArray()));
            //System.out.println(EasyProblemSolvingCert.vowelSubstring("czaredqatmoi", 5));
-           //System.out.println(DogApi.getDogImg());
+           System.out.println(DogApi.getDogImg());
            
            //System.out.println(RestApiIntermediateCert.getNumDraws(2011));
-           System.out.println(RestApiIntermediateCert.getWinnerTotalGoals("UEFA%20Champions%20League", 2011));
+           //System.out.println(RestApiIntermediateCert.getWinnerTotalGoals("UEFA%20Champions%20League", 2011));
            
     }  
 }
