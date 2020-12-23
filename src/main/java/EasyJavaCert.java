@@ -1,46 +1,11 @@
 
 import java.util.Stack;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//HackerRank certification for Java (Easy)
 
-/**
- *
- * @author walde
- */
+//Given a string with characters { ( ) }, determine if it's a balanced string
 public class EasyJavaCert {
     static boolean isBalanced(String a){
-//        if (a.isEmpty()){return true;}
-//        
-//        //boolean balanced = true;
-//        
-//        Stack<Character> openChars = new Stack();
-//        //push all open bracket chars onto a stack    
-//        for (int i = 0; i < a.length(); i++){
-//            if ( a.charAt(i) == '{' || a.charAt(i) == '(' ){
-//                openChars.push(a.charAt(i));
-//            } 
-//        }
-//        
-//        //if stack becomes empty, we are starting a new string
-//        //compare the closed bracket to what's on the string
-//        for (int i = 0; i < a.length(); i++){
-//            if ( a.charAt(i) == '}' || a.charAt(i) == ')' ){
-//                char openChar = openChars.pop();
-//                if ( a.charAt(i) == '}' && openChar != '{' ||
-//                        a.charAt(i) == ')' && openChar != '('){
-//                    return false;
-//                }
-//            } 
-//        }
-//        return true;
-//        
-//         if (str.charAt(0) == '{')
-//        return false;
-
     Stack<Character> stack = new Stack<Character>();
 
     char currentChar;

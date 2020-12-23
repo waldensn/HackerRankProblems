@@ -1,13 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author walde
- */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
@@ -19,6 +9,7 @@ import java.util.Scanner;
 import java.util.stream.Stream;
 import org.json.*;
 
+//Get the image for an API that returns pictures of dogs
 public class DogApi {
     public static String getDogImg(){
         try

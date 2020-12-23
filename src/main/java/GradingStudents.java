@@ -1,17 +1,13 @@
-
 import java.util.ArrayList;
 import java.util.List;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//https://www.hackerrank.com/challenges/grading
 
-/**
- *
- * @author walde
- */
+//if difference between grade and next multiple of 5 is less than 3, then round up to nearest 5
+//if grade is less than 38, then do not round
+//for 84, round up to 85
+//for 28, do not round
+//for 57, do not round
 public class GradingStudents {
         public static List<Integer> gradingStudents(List<Integer> grades) {
         List<Integer> roundedGrades = new ArrayList<Integer>();

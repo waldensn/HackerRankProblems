@@ -13,17 +13,10 @@ import javax.json.stream.JsonParser;
 import javax.json.stream.JsonParser.Event;
 import org.json.JSONObject;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//HackerRank ceriticaction for REST APIs (Intermediate)
+//Use a REST API that returns information on football/soccer matches for a given year
 
-/**
- *
- * @author walde
- */
-
+//Sum up the number of draws for a given year
 //for year 2011, answer is 516
 public class RestApiIntermediateCert {
     public static int getNumDraws(int year){

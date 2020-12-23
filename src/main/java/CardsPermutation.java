@@ -1,13 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author walde
- */
+//https://www.hackerrank.com/challenges/cards-permutation/problem
+//TODO finish this
 public class CardsPermutation {
     //n integers, write down permutations
     //she picked one, but forgot some elemnts, wrote a 0 down

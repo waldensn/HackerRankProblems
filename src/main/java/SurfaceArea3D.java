@@ -1,18 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author walde
- */
+//Count the surface area for a 3D rectangular solid, varying heights
 public class SurfaceArea3D {
-    //H rows and W columns
-    
-    //copied from discussion?
-    //need to sum up the 6 sides, 2 of the sides are just H x W
     static int surfaceArea(int[][] A) {
     int result = 0;
     for(int row = 0; row < A.length - 1; row++){

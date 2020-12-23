@@ -1,13 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//https://www.hackerrank.com/challenges/designer-pdf-viewer/problem
 
-/**
- *
- * @author walde
- */
+//h is an array of 26 ints, each one is the height of a letter of the alphabet
+//word is a string, determine the area needed to display the word
 public class DesignerPDFViewer {
        public static int designerPdfViewer(int[] h, String word) {
            int tallest = 0;

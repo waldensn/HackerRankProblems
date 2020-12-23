@@ -3,80 +3,8 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author walde
- */
+//HackerRank certification for Problem Solving (easy)
 public class EasyProblemSolvingCert {
-//    static int getBatteryLife(int[] events){
-//        int charge = 50;
-//        for (int i = 0; i < events.length; i++){
-//            charge += events[i];           
-//            if ( charge > 100){charge = 100;}
-//            else if (charge < 0){charge = 0;}
-//        }
-//        return charge;
-//    }
-//    
-//    static int[] stringAnagram(String[] dictionary, String[] query){
-//        //an array of ints, same length as query, with each int is the count of anagrams in dictionary
-//        //for strings to be anagrams,they must be the same length
-//        int[] arrays = new int[query.length];
-//        int numAnagrams = 0;
-//        for (int i = 0; i < query.length; i++){
-//            numAnagrams = 0;
-//            String currentQuery = query[i];
-//            
-//            for ( int j = 0; j < dictionary.length; j++){
-//                if ( isAnagram(dictionary[j].toCharArray(), query[i].toCharArray() ) ){
-//                    numAnagrams++;
-//                }
-//            }
-//            
-//            arrays[i] = numAnagrams;
-//        }
-//        
-//        return arrays;
-//    }
-//    
-//   static boolean isAnagram(char[] a, char[] b){
-//        if ( a.length != b.length ){return false;}
-//        Arrays.sort(a);
-//        Arrays.sort(b);
-//        return Arrays.equals(a, b);
-//    }
-    
-    //this answer doesn't solve in enough time
-//   static String vowelSubstring(String s, int k){
-//        int numVowelsInSubstring = 0;
-//        int maxNumVowels = 0;
-//        String answer = "";
-//        for (int i = 0; i <= s.length() - k ; i++){
-//            String substring = s.substring(i, i + k );
-//
-//            numVowelsInSubstring = getVowelCount(substring);
-//            
-//            if ( numVowelsInSubstring > maxNumVowels ){
-//                maxNumVowels = numVowelsInSubstring;
-//                answer = substring;
-//                }
-//        }
-//        
-//        if ( answer.length() == 0){
-//            return "Not found!";
-//        }
-//        else {
-//            return answer;
-//        }
-//    
-//   }
-    
     static String vowelSubstring(String s, int k){
         int numVowelsInSubstring = 0;
         int maxNumVowels = 0;

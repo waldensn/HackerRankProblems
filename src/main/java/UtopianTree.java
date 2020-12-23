@@ -1,13 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author walde
- */
+//https://www.hackerrank.com/challenges/utopian-tree
+//Each spring, tree doubles in height
+//Each summer, tree height increases by 1
 public class UtopianTree {
         public static int utopianTree(int n) {
             int height = 1;
@@ -16,6 +9,6 @@ public class UtopianTree {
                 else if (i % 2 == 0 && i > 0){height++;}
             }
                 
-            return  height;
+            return height;
     }
 }

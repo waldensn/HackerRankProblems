@@ -4,17 +4,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+//https://www.hackerrank.com/challenges/sock-merchant/problem
 
-/**
- *
- * @author walde
- */
-
+//count the number of pairs in an array
 //in ar, find the number of matching pairs
 //take the first number, and if we find a second number, remove both and increment matches?
 //if no match, remove first number?
