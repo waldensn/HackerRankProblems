@@ -1,3 +1,5 @@
+package com.mycompany.hackerrankproblems;
+
 //https://www.hackerrank.com/challenges/designer-pdf-viewer/problem
 
 //h is an array of 26 ints, each one is the height of a letter of the alphabet

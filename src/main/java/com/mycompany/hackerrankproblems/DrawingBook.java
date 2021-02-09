@@ -1,3 +1,5 @@
+package com.mycompany.hackerrankproblems;
+
 //https://www.hackerrank.com/challenges/drawing-book
 //didn't finish
 public class DrawingBook {

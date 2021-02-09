@@ -1,3 +1,5 @@
+package com.mycompany.hackerrankproblems;
+
 //https://www.hackerrank.com/challenges/utopian-tree
 //Each spring, tree doubles in height
 //Each summer, tree height increases by 1

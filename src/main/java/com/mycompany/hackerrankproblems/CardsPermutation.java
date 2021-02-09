@@ -1,3 +1,5 @@
+package com.mycompany.hackerrankproblems;
+
 //https://www.hackerrank.com/challenges/cards-permutation/problem
 //TODO finish this
 public class CardsPermutation {

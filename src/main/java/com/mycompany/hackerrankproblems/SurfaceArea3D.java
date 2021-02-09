@@ -1,3 +1,5 @@
+package com.mycompany.hackerrankproblems;
+
 //Count the surface area for a 3D rectangular solid, varying heights
 public class SurfaceArea3D {
     static int surfaceArea(int[][] A) {

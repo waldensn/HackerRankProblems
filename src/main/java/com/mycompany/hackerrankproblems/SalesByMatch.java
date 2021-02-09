@@ -1,3 +1,5 @@
+package com.mycompany.hackerrankproblems;
+
 
 import java.util.ArrayList;
 import java.util.Arrays;
